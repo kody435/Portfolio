@@ -17,7 +17,7 @@ const Hero = () => {
                       . He loves creating awesome stuff and writing things he learns along
                       the way, usually about JavaScript, React, and Python.
                   </p>
-                  <div className='pt-24 lg:pt-16'>
+                  <div className='pt-10 lg:pt-16'>
                         <box-icon type='solid' name='chevron-down' size="lg" animation="fade-down"></box-icon>
                   </div>
               </section>

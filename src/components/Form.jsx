@@ -33,7 +33,37 @@ function ContactForm() {
             </button>
           </div>
 
-          <div className="pt-12 pb-10">
+          <div className='pt-24 flex flex-col sm:flex-row md:flex-row w-full items-center text-white'>
+            <section className='flex flex-row sm:justify-center md:justify-center lg:justify-end w-full items-center place-content-center space-x-10 '>
+              <div>
+                <a href='/about'>
+                  <h2>About</h2>
+                </a>
+              </div>
+              <div>
+                <a href='https://github.com/kody435' target="_blank" rel="noreferrer">
+                  <box-icon type='logo' name='github' animation='tada-hover' color='#ffffff'></box-icon>
+                </a>
+              </div>
+              <div>
+                <a href='https://twitter.com/Param435_' target="_blank" rel="noreferrer">
+                  <box-icon type='logo' name='twitter' animation='tada-hover' color='#ffffff'></box-icon>
+                </a>
+              </div>
+              <div>
+                <a href='https://telegram.me/Param435' target="_blank" rel="noreferrer">
+                  <box-icon type='logo' name='telegram' animation='tada-hover' color='#ffffff'></box-icon>
+                </a>
+              </div>
+              <div>
+                <a href='https://instagram.com/param435_' target="_blank" rel="noreferrer">
+                  <box-icon type='logo' name='instagram' animation='tada-hover' color='#ffffff'></box-icon>
+                </a>
+              </div>
+            </section>
+          </div>
+
+          <div className=" pb-10">
             <p className="text-white text-sm text-center pt-10">Copyright © Param's Portfolio 2022.</p>
           </div>
           
