@@ -4,8 +4,8 @@ import profile from './sticker.png'
 const Navbar = () => {
   return (
       <div>
-          <div className=' pb-14 flex flex-row'>
-              <section className='w-48 ml-10'>
+          <div className='pt-5 pb-14 flex flex-row'>
+              <section className='w-36 ml-10'>
                   <img src={profile} alt='' className=''></img>
               </section>
               <section className='flex flex-row justify-end w-full items-center space-x-10 pr-28 '>

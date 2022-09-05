@@ -6,7 +6,7 @@ const Projects = () => {
           <div className='flex items-center flex-col pt-28'>
                 <h1 className='text-bold text-6xl'>Projects</h1>
           </div>
-          <section className='flex flex-col items-center mb-52 space-x-0 md:space-x-10 lg:space-x-20 xl:space-x-20 2xl:space-x-20  pl-5 pr-5  md:flex-col lg:flex-row xl:flex-row 2xl:flex-row '>
+          <section className='flex flex-col items-center mb-52 space-x-0 md:space-x-0 lg:space-x-20 xl:space-x-20 2xl:space-x-20  pl-5 pr-5  md:flex-col lg:flex-row xl:flex-row 2xl:flex-row '>
                   <div className='hover:border-2 hover:border-gray-300 mt-20 rounded-3xl ring-1 hover:shadow-xl hover:scale-105 hover:delay-50  '>
                       <section className="flex flex-col items-center flex-col-2 pr-1 pl-1">
                           <div>
@@ -39,7 +39,8 @@ const Projects = () => {
                           </div>
                       </section>
               </div>
-              <div className='hover:border-2 hover:border-gray-300 mt-10 md:mt-12 lg:mt-20 xl:mt-20 2xl:mt-20 rounded-3xl ring-1 hover:shadow-xl hover:scale-105 hover:delay-50  '>
+
+              <div className='hover:border-2 hover:border-gray-300 mt-20 rounded-3xl ring-1 hover:shadow-xl hover:scale-105 hover:delay-50  '>
                   <section className="flex flex-col items-center flex-col-2 pr-1 pl-1">
                       <div>
                           <img src="https://raw.githubusercontent.com/kody435/Portfolio/main/Web%20Logo-No.png" alt="OCTULUS" className='w-52 h-52'></img>
@@ -71,6 +72,7 @@ const Projects = () => {
                       </div>
                   </section>
               </div>
+              
           </section>
           
     </div>

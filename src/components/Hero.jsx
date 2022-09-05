@@ -13,20 +13,11 @@ const Hero = () => {
               <section className="flex items-center flex-col mx-64 pt-12">
                   <p className="text-3xl font-semibold flex-row text-center">
                       Param is a Frontend Engineer currently building{" "}
-                      <a
-                          href="https://snarkyidiot.live/"
-                          target="_blank"
-                          rel="noreferrer"
-                          className=' font-black'
-                      ><abbr title="Click to visit">
-                              OCTULUS
-                          </abbr>
-
-                      </a>
+                      <a href="https://snarkyidiot.live/" target="_blank" rel="noreferrer" className=' font-black'><abbr title="Click to visit">OCTULUS</abbr></a>
                       . He loves creating awesome stuff and writing things he learns along
                       the way, usually about JavaScript, React, and Python.
                   </p>
-                  <div className='pt-20'>
+                  <div className='pt-16'>
                         <box-icon type='solid' name='chevron-down' size="lg" animation="fade-down"></box-icon>
                   </div>
               </section>
