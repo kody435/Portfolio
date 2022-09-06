@@ -47,7 +47,7 @@ const Projects = () => {
                       </div>
 
                       <div>
-                          <h2 className='text-4xl text-black'>Octulus</h2>
+                          <h2 className='text-4xl text-black'>Hulu Clone 2.0</h2>
                       </div>
 
                       <div>

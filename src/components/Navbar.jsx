@@ -4,11 +4,13 @@ import profile from './sticker.png'
 const Navbar = () => {
   return (
       <div>
-          <div className='pt-5 pb-14 flex flex-col sm:flex-row md:flex-row w-full items-center'>
+      <div className='pt-5 pb-14 flex flex-col sm:flex-row md:flex-row w-full items-center'>
+        <a href='/'>
               <section className='w-36 lg:pl-10 lg:w-48'>
                   <img src={profile} alt='' className=''></img>
               </section>
-              <section className='flex flex-row sm:justify-center md:justify-center lg:justify-end w-full items-center place-content-center space-x-10 lg:pr-28 '>
+        </a>
+              <section className='flex flex-row sm:justify-center md:justify-end md:pr-9 lg:justify-end w-full items-center place-content-center space-x-10 lg:pr-28 '>
                   <div>
                     <a href='/about'>
                         <h2>About</h2>

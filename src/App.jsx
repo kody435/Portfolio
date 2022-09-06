@@ -1,17 +1,19 @@
-import Hero from './components/Hero';
-import Navbar from './components/Navbar';
-import Projects from './components/Projects';
-import Form from './components/Form';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './Home'
+import About from './About'
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <Navbar />
-      <Hero />
-      <Projects />
-      <Form />
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="about" element={<About />} />
+        </Routes>
+      </BrowserRouter>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
