@@ -7,7 +7,7 @@ const About = () => {
       <div>
       <Navbar />
       <Hero />
-        <Form />
+      <Form />
     </div>
   )
 }

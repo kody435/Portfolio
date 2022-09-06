@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Form from './components/Form';
 
-function App() {
+function Home() {
     return (
         <div className="App">
             <Navbar />
@@ -14,4 +14,4 @@ function App() {
     );
 }
 
-export default App;
+export default Home;
