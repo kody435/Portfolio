@@ -34,7 +34,7 @@ function ContactForm() {
           </div>
 
           <div className='pt-24 flex flex-col sm:flex-row md:flex-row w-full items-center text-white'>
-            <section className='flex flex-row sm:justify-center md:justify-center lg:justify-end w-full items-center place-content-center space-x-10 '>
+            <section className='flex flex-row justify-center w-full items-center place-content-center space-x-10 '>
               <div>
                 <a href='/about'>
                   <h2>About</h2>
@@ -53,11 +53,6 @@ function ContactForm() {
               <div>
                 <a href='https://telegram.me/Param435' target="_blank" rel="noreferrer">
                   <box-icon type='logo' name='telegram' animation='tada-hover' color='#ffffff'></box-icon>
-                </a>
-              </div>
-              <div>
-                <a href='https://instagram.com/param435_' target="_blank" rel="noreferrer">
-                  <box-icon type='logo' name='instagram' animation='tada-hover' color='#ffffff'></box-icon>
                 </a>
               </div>
             </section>
