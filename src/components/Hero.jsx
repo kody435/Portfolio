@@ -13,7 +13,7 @@ const Hero = () => {
               <section className="flex items-center flex-col mx-10 md:mx-32 lg:mx-64 pt-12">
                   <p className="text-xl  lg:text-3xl font-semibold flex-row text-center">
                       Param is a Frontend Engineer currently building{" "}
-                      <a href="https://riddles-mocha.vercel.app/" target="_blank" rel="noreferrer" className=' font-black'><abbr title="Click to visit">The<bold>OCTULUS</bold></abbr></a>
+                      <a href="https://riddles-mocha.vercel.app/" target="_blank" rel="noreferrer" className=' font-black'><abbr title="Click to visit">The{" "}<bold>OCTULUS</bold></abbr></a>
                       . He loves creating awesome stuff and writing things he learns along
                       the way, usually about JavaScript, React, and Python.
                   </p>
