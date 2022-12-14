@@ -22,11 +22,11 @@ const Projects = () => {
             github:'https://github.com/kody435/gif-web3'
         },
         {
-            title: "Param's Anime GIF Portal",
+            title:"The OCTULUS",
             description:'A Movie Streaming Platform which is built with Latest Tech Stack like NextJS, GraphQL, GraphCMS and it is fully responsive.',
-            link: 'https://gif-web3.vercel.app',
-            github:'https://github.com/kody435/gif-web3'
-        }
+            link: 'https://riddles-mocha.vercel.app',
+            github:'https://github.com/kody435/riddles'
+        },
     ]
 
   return (
