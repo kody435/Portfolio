@@ -1,11 +1,13 @@
-import Navbar from "./src/components/Navbar";
-import Form from "./src/components/Form";
+import Navbar from "./components/Navbar";
+import Form from "./components/Form";
+import Projects from './components/Projects'
 
 const About = () => {
   return (
       <div>
-        <Navbar />
-        <Form />
+      <Navbar />
+      <Projects />
+      <Form />
     </div>
   )
 }

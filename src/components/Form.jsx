@@ -10,20 +10,20 @@ function ContactForm() {
   return (
 
     <div className="bg-black">
-      <div className="w-100 text-5xl flex justify-center pt-36 pb-16">
+      <div className="w-100 text-5xl flex justify-center pt-20 lg:pt-36 pb-16">
         <h2 className="text-white">Get in Touch</h2>
       </div>
       <div className="flex justify-center">
         <form onSubmit={handleSubmit}>
           <div className="flex justify-center mb-20">
             <label htmlFor="email" className=" text-white mr-10">Email ID</label>
-            <input id="email" type="email" name="email" placeholder="Email ID" className=" rounded-xl bg-black text-white border-2 border-gray-400 md:border-2 md:border-gray-400 lg:border-0 xl:border-0 2xl:border-0"  />
+            <input id="email" type="email" name="email" placeholder="Email ID" className=" rounded-xl bg-black text-white border-2 border-gray-400 md:border-2 lg:border-0 xl:border-0 2xl:border-0"  />
             <ValidationError prefix="Email" field="email" errors={state.errors} />
           </div>
 
           <div className="flex flex-col mb-20 ">
             <label htmlFor="message" className=" mr-9 text-white justify-center flex mb-5">Message</label>
-            <textarea id="message" name="message" placeholder="Your Message" className="rounded-xl bg-black text-white border-2 border-gray-400 md:border-2 md:border-gray-400 lg:border-0 xl:border-0 2xl:border-0" />
+            <textarea id="message" name="message" placeholder="Your Message" className="rounded-xl bg-black text-white border-2 border-gray-400 md:border-2 lg:border-0 xl:border-0 2xl:border-0" />
             <ValidationError prefix="Message" field="message" errors={state.errors} />
           </div>
           <br></br>
