@@ -1,5 +1,5 @@
-import Navbar from "./src/components/Navbar";
-import Form from "./src/components/Form";
+import Navbar from "./components/Navbar";
+import Form from "./components/Form";
 
 const About = () => {
   return (
